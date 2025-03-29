@@ -60,11 +60,14 @@ const Greeting = () => {
       <Image data-aos="fade-up" src={Flower} />
       <Content data-aos="fade-up">
         살면서 만난 많은 분들의 응원과
+        <br />
         따뜻한 마음 덕분에
+        <br />
         저희가 바르고 곱게 자랄 수 있었습니다.
         <br />
         <br />
         그 고마운 마음을 간직한 채
+        <br />
         이제 한 가족을 이루려 합니다.
         <br />
         <br />
