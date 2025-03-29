@@ -39,6 +39,7 @@ const Quote = () => {
     <Wrapper>
       <Image src={Flower} data-aos="fade-up" />
       <Content data-aos="fade-up">
+        <br />
         너를 안으면 세상이
         <br />
         다 내 것 같았다
