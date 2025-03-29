@@ -39,12 +39,12 @@ const Quote = () => {
     <Wrapper>
       <Image src={Flower} data-aos="fade-up" />
       <Content data-aos="fade-up">
-        구부정한 노인이 지팡이 짚고
+        너를 안으면 세상이
         <br />
-        가파른 비탈길 비틀거리며 내려간다
+        다 내 것 같았다
         <br />
         <br />
-        - 정양, (세월) -
+        - 정양, (사루비아) -
         <br />
         <br />
       </Content>
