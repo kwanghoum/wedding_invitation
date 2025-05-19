@@ -4,7 +4,7 @@ import { Divider } from "antd";
 import styled from "styled-components";
 
 import GalleryPhoto1 from "../assets/Gallery_Photo_1.webp";
-import GalleryPhoto2 from "../assets/Gallery_Photo_2.webp";
+import GalleryPhoto2 from "../assets/Gallery_Photo_2.jpeg";
 import GalleryPhoto3 from "../assets/Gallery_Photo_3.webp";
 import GalleryPhoto4 from "../assets/Gallery_Photo_4.webp";
 import GalleryPhoto5 from "../assets/Gallery_Photo_5.webp";
