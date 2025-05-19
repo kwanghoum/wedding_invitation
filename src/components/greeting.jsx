@@ -12,13 +12,14 @@ import {
 import Flower from "../assets/flower1.png";
 
 const Wrapper = styled.div`
-  padding-top: 42px;
+  padding-top: 3rem;
   margin: 0 auto;
-  width: 70%;
+  width: 80%;
+  max-width: 800px;
 `;
 
 const Title = styled.p`
-  font-size: 1rem;
+  font-size: 1.7rem;
   color: var(--title-color);
   font-weight: bold;
   opacity: 0.85;
@@ -27,21 +28,22 @@ const Title = styled.p`
 `;
 
 const Content = styled.p`
-  font-size: 0.72rem;
+  font-size: 1.3rem; /* 0.875 * 1.5 = 1.3rem */
   line-height: 1.75;
-  opacity: 0.75;
-  margin-bottom: 16px;
+  color: #000000;
+  margin-bottom: 2rem;
   width: 100%;
   text-align: center;
 `;
 
 const GroomBride = styled.p`
-  font-size: 0.875rem;
+  font-size: 1.5rem; /* 1 * 1.5 = 1.5rem */
   line-height: 1.75;
-  opacity: 0.85;
+  color: #000000;
   margin-bottom: 0px;
   width: 100%;
   text-align: center;
+  font-weight: 500;
 `;
 
 const Image = styled.img`
