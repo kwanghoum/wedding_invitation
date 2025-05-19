@@ -99,7 +99,7 @@ const CongratulatoryMoney = () => {
       <ButtonWrap>
         <ContactButton data-aos="fade-up" onClick={() => setGroomVisible(true)}>
           <CheckCircleTwoTone
-            style={{ fontSize: 64, marginBottom: 16 }}
+            style={{ fontSize: 128, marginBottom: 24 }}
             twoToneColor="#829fe0"
           />
           <br />
@@ -107,7 +107,7 @@ const CongratulatoryMoney = () => {
         </ContactButton>
         <ContactButton data-aos="fade-up" onClick={() => setBrideVisible(true)}>
           <CheckCircleTwoTone
-            style={{ fontSize: 64, marginBottom: 16 }}
+            style={{ fontSize: 128, marginBottom: 24 }}
             twoToneColor="#fe7daf"
           />
           <br />
