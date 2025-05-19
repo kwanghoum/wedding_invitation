@@ -27,13 +27,14 @@ import GalleryPhoto20 from "../assets/Gallery_Photo_20.jpeg";
 
 
 const Wrapper = styled.div`
-  padding-top: 42px;
-  width: 70%;
+  padding-top: 3rem;
+  width: 80%;
+  max-width: 800px;
   margin: 0 auto;
 `;
 
 const Title = styled.p`
-  font-size: 1rem;
+  font-size: 1.7rem;
   color: var(--title-color);
   font-weight: bold;
   opacity: 0.85;
