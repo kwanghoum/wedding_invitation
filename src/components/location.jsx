@@ -4,13 +4,14 @@ import styled from "styled-components";
 import Flower from "../assets/flower2.png";
 
 const Wrapper = styled.div`
-  padding-top: 42px;
-  width: 70%;
+  padding-top: 3rem;
+  width: 80%;
+  max-width: 800px;
   margin: 0 auto;
 `;
 
 const Title = styled.span`
-  font-size: 1rem;
+  font-size: 1.7rem;
   color: var(--title-color);
   font-weight: bold;
   opacity: 0.85;
@@ -21,17 +22,17 @@ const Image = styled.img`
   display: block;
   margin: 0 auto;
   width: 1.375rem;
-  padding-bottom: 42px;
+  padding-bottom: 2rem;
 `;
 
 const Content = styled.p`
-  font-size: 0.875rem;
+  font-size: 1.3rem;
   line-height: 1.75;
-  opacity: 0.75;
+  opacity: 0.85;
   width: 100%;
   text-align: center;
-  padding-top: 42px;
-  padding-bottom: 42px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   margin: 0;
 `;
 
