@@ -20,7 +20,7 @@ const Content = styled.span`
   font-family: "mom_to_daughter";
   text-align: center;
   color: var(--title-color);
-  line-height: 4.2rem;
+  line-height: 4.6rem;
   opacity: 0.75;
   background-image: url(${QuotePaper});
   background-repeat: no-repeat;

@@ -13,13 +13,14 @@ import {
 } from "../../config";
 
 const Wrapper = styled.div`
-  padding-top: 42px;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   width: 100%;
   text-align: center;
 `;
 
 const Title = styled.span`
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: var(--title-color);
   font-weight: bold;
   opacity: 0.85;
