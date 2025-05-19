@@ -4,9 +4,9 @@ import QuotePaper from "../assets/Quote.png";
 import Flower from "../assets/flower1.png";
 
 const Wrapper = styled.div`
-  padding-top: 42px;
-  padding-left: 42px;
-  padding-right: 42px;
+  padding-top: 3rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
   width: 100%;
   overflow: hidden;
   margin: 0 auto;
@@ -16,11 +16,11 @@ const Wrapper = styled.div`
 const Content = styled.span`
   display: block;
   margin: 0 auto;
-  font-size: 1.3rem;
+  font-size: 1.95rem;
   font-family: "mom_to_daughter";
   text-align: center;
   color: var(--title-color);
-  line-height: 2.25rem;
+  line-height: 3.4rem;
   opacity: 0.75;
   background-image: url(${QuotePaper});
   background-repeat: no-repeat;
