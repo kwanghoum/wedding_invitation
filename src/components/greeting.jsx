@@ -46,6 +46,17 @@ const GroomBride = styled.p`
   font-weight: 500;
 `;
 
+const NameHighlight = styled.span`
+  color: #000000;
+  font-weight: 600;
+  font-size: 1.5rem;
+`;
+
+const SmallText = styled.span`
+  font-size: 1.2rem;
+  color: #A7A9AC;
+`;
+
 const Image = styled.img`
   display: block;
   margin: 0 auto;
@@ -76,9 +87,9 @@ const Greeting = () => {
         지금의 저희를 있게 해주신 여러분을 초대합니다.
       </Content>
       <GroomBride data-aos="fade-up">
-        {GROOM_FATHER_NAME} · {GROOM_MOTHER_NAME}의 장남 {GROOM_NAME}
+      {GROOM_FATHER_NAME} · {GROOM_MOTHER_NAME}<SmallText>의 장남</SmallText> <NameHighlight>엄광호</NameHighlight>
         <br />
-        {BRIDE_FATHER_NAME} · {BRIDE_MOTHER_NAME}의 차녀 {BRIDE_NAME}
+        {BRIDE_FATHER_NAME} · {BRIDE_MOTHER_NAME}<SmallText>의 장녀</SmallText> <NameHighlight>이재원</NameHighlight>
       </GroomBride>
     </Wrapper>
   );
