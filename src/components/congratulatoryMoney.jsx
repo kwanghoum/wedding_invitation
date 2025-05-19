@@ -20,15 +20,16 @@ import {
 } from "../../config";
 
 const Wrapper = styled.div`
-  padding-top: 42px;
-  padding-bottom: 18px;
-  width: 70%;
+  padding-top: 3rem;
+  padding-bottom: 1.5rem;
+  width: 80%;
+  max-width: 800px;
   margin: 0 auto;
   text-align: center;
 `;
 
 const Title = styled.p`
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: var(--title-color);
   font-weight: bold;
   opacity: 0.85;
@@ -36,24 +37,25 @@ const Title = styled.p`
 `;
 
 const Content = styled.p`
-  font-size: 0.875rem;
+  font-size: 1.3rem; /* 0.875 * 1.5 = 1.3rem */
   line-height: 1.75;
   opacity: 0.75;
-  margin-bottom: 42px;
+  margin-bottom: 2.5rem;
 `;
 
 const SubContent = styled.p`
-  font-size: 0.875rem;
+  font-size: 1.3rem; /* 0.875 * 1.5 = 1.3rem */
   line-height: 1.75;
   opacity: 0.75;
-  margin-bottom: 42px;
+  margin-bottom: 0;
 `;
 
 const Description = styled.p`
-  font-size: 0.875rem;
+  font-size: 1.3rem; /* 0.875 * 1.5 = 1.3rem */
   line-height: 1.75;
   opacity: 0.65;
-  margin-top: 8px;
+  margin-top: 0.5rem;
+  text-align: center;
 `;
 
 const ButtonWrap = styled.div`
