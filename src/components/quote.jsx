@@ -16,11 +16,11 @@ const Wrapper = styled.div`
 const Content = styled.span`
   display: block;
   margin: 0 auto;
-  font-size: 1.3rem;
+  font-size: 1.95rem; // 1.3*1.5
   font-family: "mom_to_daughter";
   text-align: center;
   color: var(--title-color);
-  line-height: 2.25rem;
+  line-height: 3.375rem; // 2.25*1.5
   opacity: 0.75;
   background-image: url(${QuotePaper});
   background-repeat: no-repeat;
