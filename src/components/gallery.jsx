@@ -23,7 +23,7 @@ import GalleryPhoto17 from "../assets/Gallery_Photo_17.jpeg";
 import GalleryPhoto18 from "../assets/Gallery_Photo_18.jpeg";
 import GalleryPhoto19 from "../assets/Gallery_Photo_19.jpeg";
 import GalleryPhoto20 from "../assets/Gallery_Photo_20.jpeg";
-
+import GalleryPhoto21 from "../assets/Gallery_Photo_21.jpeg";
 
 
 const Wrapper = styled.div`
@@ -122,6 +122,10 @@ const images = [
   {
     original: GalleryPhoto20,
     thumbnail: GalleryPhoto20,
+  },
+  {
+    original: GalleryPhoto21,
+    thumbnail: GalleryPhoto21,
   },
 ];
 const Gallery = () => {
