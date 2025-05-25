@@ -34,7 +34,6 @@ import GalleryPhoto28 from "../assets/Gallery_Photo_28.jpeg";
 import GalleryPhoto29 from "../assets/Gallery_Photo_29.jpeg";
 import GalleryPhoto30 from "../assets/Gallery_Photo_30.jpeg";
 import GalleryPhoto31 from "../assets/Gallery_Photo_31.jpeg";
-import GalleryPhoto32 from "../assets/Gallery_Photo_32.jpeg";
 
 const Wrapper = styled.div`
   padding-top: 3rem;
@@ -176,10 +175,6 @@ const images = [
   {
     original: GalleryPhoto31,
     thumbnail: GalleryPhoto31,
-  },
-  {
-    original: GalleryPhoto32,
-    thumbnail: GalleryPhoto32,
   },
 ];
 const Gallery = () => {
