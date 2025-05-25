@@ -24,7 +24,17 @@ import GalleryPhoto18 from "../assets/Gallery_Photo_18.jpeg";
 import GalleryPhoto19 from "../assets/Gallery_Photo_19.jpeg";
 import GalleryPhoto20 from "../assets/Gallery_Photo_20.jpeg";
 import GalleryPhoto21 from "../assets/Gallery_Photo_21.jpeg";
-
+import GalleryPhoto22 from "../assets/Gallery_Photo_22.jpeg";
+import GalleryPhoto23 from "../assets/Gallery_Photo_23.jpeg";
+import GalleryPhoto24 from "../assets/Gallery_Photo_24.jpeg";
+import GalleryPhoto25 from "../assets/Gallery_Photo_25.jpeg";
+import GalleryPhoto26 from "../assets/Gallery_Photo_26.jpeg";
+import GalleryPhoto27 from "../assets/Gallery_Photo_27.jpeg";
+import GalleryPhoto28 from "../assets/Gallery_Photo_28.jpeg";
+import GalleryPhoto29 from "../assets/Gallery_Photo_29.jpeg";
+import GalleryPhoto30 from "../assets/Gallery_Photo_30.jpeg";
+import GalleryPhoto31 from "../assets/Gallery_Photo_31.jpeg";
+import GalleryPhoto32 from "../assets/Gallery_Photo_32.jpeg";
 
 const Wrapper = styled.div`
   padding-top: 3rem;
@@ -126,6 +136,50 @@ const images = [
   {
     original: GalleryPhoto21,
     thumbnail: GalleryPhoto21,
+  },
+  {
+    original: GalleryPhoto22,
+    thumbnail: GalleryPhoto22,
+  },
+  {
+    original: GalleryPhoto23,
+    thumbnail: GalleryPhoto23,
+  },
+  {
+    original: GalleryPhoto24,
+    thumbnail: GalleryPhoto24,
+  },
+  {
+    original: GalleryPhoto25,
+    thumbnail: GalleryPhoto25,
+  },
+  {
+    original: GalleryPhoto26,
+    thumbnail: GalleryPhoto26,
+  },
+  {
+    original: GalleryPhoto27,
+    thumbnail: GalleryPhoto27,
+  },
+  {
+    original: GalleryPhoto28,
+    thumbnail: GalleryPhoto28,
+  },
+  {
+    original: GalleryPhoto29,
+    thumbnail: GalleryPhoto29,
+  },
+  {
+    original: GalleryPhoto30,
+    thumbnail: GalleryPhoto30,
+  },
+  {
+    original: GalleryPhoto31,
+    thumbnail: GalleryPhoto31,
+  },
+  {
+    original: GalleryPhoto32,
+    thumbnail: GalleryPhoto32,
   },
 ];
 const Gallery = () => {
